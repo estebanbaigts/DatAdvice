@@ -1,0 +1,533 @@
+.main-page-maquette {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .main-page-maquette .div {
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(86.05, 98.81, 92.69) 0%, rgb(48.8, 160.44, 100.15) 100%);
+    width: 1444px;
+    height: 4628px;
+    position: relative;
+  }
+  
+  .main-page-maquette .overlap {
+    position: absolute;
+    width: 1417px;
+    height: 1027px;
+    top: 0;
+    left: 0;
+  }
+  
+  .main-page-maquette .overlap-group {
+    position: absolute;
+    width: 1300px;
+    height: 884px;
+    top: 143px;
+    left: 117px;
+  }
+  
+  .main-page-maquette .glass-shape {
+    position: absolute;
+    width: 946px;
+    height: 884px;
+    top: 0;
+    left: 354px;
+  }
+  
+  .main-page-maquette .component {
+    height: 884px;
+  }
+  
+  .main-page-maquette .overlap-group-2 {
+    position: relative;
+    width: 943px;
+    height: 884px;
+  }
+  
+  .main-page-maquette .vector {
+    position: absolute;
+    width: 487px;
+    height: 511px;
+    top: 0;
+    left: 304px;
+    background-blend-mode: overlay;
+  }
+  
+  .main-page-maquette .img {
+    width: 486px;
+    height: 373px;
+    top: 511px;
+    left: 310px;
+    position: absolute;
+    background-blend-mode: overlay;
+  }
+  
+  .main-page-maquette .vector-2 {
+    width: 403px;
+    height: 436px;
+    top: 448px;
+    left: 0;
+    position: absolute;
+    background-blend-mode: overlay;
+  }
+  
+  .main-page-maquette .vector-3 {
+    width: 403px;
+    height: 471px;
+    top: 40px;
+    left: 0;
+    position: absolute;
+    background-blend-mode: overlay;
+  }
+  
+  .main-page-maquette .vector-4 {
+    width: 543px;
+    height: 518px;
+    top: 224px;
+    left: 400px;
+    position: absolute;
+    background-blend-mode: overlay;
+  }
+  
+  .main-page-maquette .texte-ine-the-main {
+    position: absolute;
+    width: 626px;
+    height: 502px;
+    top: 138px;
+    left: 0;
+  }
+  
+  .main-page-maquette .la-donn-e-devient {
+    position: absolute;
+    width: 620px;
+    top: 319px;
+    left: 0;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #f1f6fd;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 45.6px;
+  }
+  
+  .main-page-maquette .text-wrapper {
+    position: absolute;
+    width: 350px;
+    top: 0;
+    left: 0;
+    font-family: "Sofia Sans", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 76px;
+    letter-spacing: -0.76px;
+    line-height: 104.1px;
+  }
+  
+  .main-page-maquette .text-wrapper-2 {
+    position: absolute;
+    width: 413px;
+    top: 146px;
+    left: 0;
+    font-family: "Sofia Sans", Helvetica;
+    font-weight: 900;
+    color: #cb99e3;
+    font-size: 52px;
+    letter-spacing: -0.52px;
+    line-height: 60.1px;
+  }
+  
+  .main-page-maquette .datadvice {
+    position: absolute;
+    width: 210px;
+    height: 199px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .main-page-maquette .overlap-2 {
+    position: absolute;
+    width: 462px;
+    height: 57px;
+    top: 41px;
+    left: 323px;
+  }
+  
+  .main-page-maquette .buttons {
+    display: flex;
+    width: 232px;
+    height: 57px;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 72px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+  }
+  
+  .main-page-maquette .element-placeholder {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .main-page-maquette .ellipse {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 3px;
+    border-radius: 9px;
+    border: 1px solid;
+    border-color: #ffffff;
+  }
+  
+  .main-page-maquette .label {
+    margin-right: -4px;
+    position: relative;
+    width: fit-content;
+    margin-top: -0.5px;
+    font-family: "Sofia Sans", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.04px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .main-page-maquette .buttons-2 {
+    width: 232px;
+    gap: 8px;
+    top: 0;
+    left: 230px;
+    display: flex;
+    height: 57px;
+    align-items: center;
+    padding: 16px 72px;
+    position: absolute;
+    opacity: 0.8;
+  }
+  
+  .main-page-maquette .label-2 {
+    margin-right: -28px;
+    position: relative;
+    width: fit-content;
+    margin-top: -0.5px;
+    font-family: "Sofia Sans", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.04px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .main-page-maquette .buttons-3 {
+    width: 232px;
+    gap: 8px;
+    top: 41px;
+    left: 807px;
+    display: flex;
+    height: 57px;
+    align-items: center;
+    padding: 16px 72px;
+    position: absolute;
+    opacity: 0.8;
+  }
+  
+  .main-page-maquette .label-3 {
+    margin-right: -68px;
+    position: relative;
+    width: fit-content;
+    margin-top: -0.5px;
+    font-family: "Sofia Sans", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.04px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .main-page-maquette .buttons-4 {
+    width: 232px;
+    gap: 8px;
+    top: 41px;
+    left: 1101px;
+    overflow: hidden;
+    display: flex;
+    height: 57px;
+    align-items: center;
+    padding: 16px 72px;
+    position: absolute;
+    opacity: 0.8;
+  }
+  
+  .main-page-maquette .label-4 {
+    margin-right: -72px;
+    position: relative;
+    width: fit-content;
+    margin-top: -0.5px;
+    font-family: "Sofia Sans", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.04px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .main-page-maquette .overlap-3 {
+    position: absolute;
+    width: 1575px;
+    height: 3668px;
+    top: 1093px;
+    left: -35px;
+  }
+  
+  .main-page-maquette .glass-shape-2 {
+    position: absolute;
+    width: 1575px;
+    height: 3668px;
+    top: 0;
+    left: 0;
+  }
+  
+  .main-page-maquette .component-2 {
+    position: absolute;
+    width: 911px;
+    height: 884px;
+    top: 57px;
+    left: 35px;
+  }
+  
+  .main-page-maquette .glass-shape-3 {
+    position: absolute;
+    width: 1563px;
+    height: 2727px;
+    top: 941px;
+    left: 12px;
+  }
+  
+  .main-page-maquette .component-3 {
+    position: absolute;
+    width: 914px;
+    height: 884px;
+    top: 0;
+    left: 553px;
+  }
+  
+  .main-page-maquette .glass-shape-4 {
+    position: absolute;
+    width: 1563px;
+    height: 1768px;
+    top: 959px;
+    left: 0;
+  }
+  
+  .main-page-maquette .component-4 {
+    position: absolute;
+    width: 923px;
+    height: 884px;
+    top: 0;
+    left: 23px;
+  }
+  
+  .main-page-maquette .component-wrapper {
+    position: absolute;
+    width: 946px;
+    height: 884px;
+    top: 884px;
+    left: 617px;
+  }
+  
+  .main-page-maquette .component-5 {
+    position: absolute;
+    width: 850px;
+    height: 751px;
+    top: 0;
+    left: 0;
+  }
+  
+  .main-page-maquette .label-wrapper {
+    width: 207px;
+    gap: 16px;
+    top: 0;
+    left: 100px;
+    background-color: #fefcff;
+    border-radius: 32px;
+    display: flex;
+    height: 57px;
+    align-items: center;
+    padding: 16px 72px;
+    position: absolute;
+    opacity: 0.8;
+  }
+  
+  .main-page-maquette .label-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.5px;
+    font-family: "Sofia Sans", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.04px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .main-page-maquette .div-wrapper {
+    width: 271px;
+    gap: 16px;
+    top: 0;
+    left: 584px;
+    background-color: #fefcff;
+    border-radius: 32px;
+    display: flex;
+    height: 57px;
+    align-items: center;
+    padding: 16px 72px;
+    position: absolute;
+    opacity: 0.8;
+  }
+  
+  .main-page-maquette .buttons-5 {
+    width: 300px;
+    gap: 16px;
+    top: 0;
+    left: 878px;
+    background-color: #cb99e3;
+    border-radius: 32px;
+    display: flex;
+    height: 57px;
+    align-items: center;
+    padding: 16px 72px;
+    position: absolute;
+    opacity: 0.8;
+  }
+  
+  .main-page-maquette .label-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.5px;
+    font-family: "Sofia Sans", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.04px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .main-page-maquette .buttons-6 {
+    width: 231px;
+    gap: 16px;
+    top: 0;
+    left: 330px;
+    background-color: #fefcff;
+    border-radius: 32px;
+    display: flex;
+    height: 57px;
+    align-items: center;
+    padding: 16px 72px;
+    position: absolute;
+    opacity: 0.8;
+  }
+  
+  .main-page-maquette .p {
+    position: absolute;
+    width: 640px;
+    top: 217px;
+    left: 165px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: -0.04px;
+    line-height: 24px;
+  }
+  
+  .main-page-maquette .social-icons {
+    position: absolute;
+    width: 49px;
+    height: 50px;
+    top: 3406px;
+    left: 129px;
+  }
+  
+  .main-page-maquette .social-icons-2 {
+    position: absolute;
+    width: 49px;
+    height: 50px;
+    top: 3406px;
+    left: 248px;
+  }
+  
+  .main-page-maquette .text-wrapper-3 {
+    position: absolute;
+    width: 1122px;
+    top: 291px;
+    left: 165px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: -0.04px;
+    line-height: 24px;
+  }
+  
+  .main-page-maquette .nous-conseillons-de {
+    position: absolute;
+    width: 1225px;
+    top: 365px;
+    left: 165px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: -0.04px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .main-page-maquette .text-wrapper-4 {
+    position: absolute;
+    width: 781px;
+    top: 427px;
+    left: 165px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: -0.04px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .main-page-maquette .text-wrapper-5 {
+    position: absolute;
+    width: 1096px;
+    top: 517px;
+    left: 162px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: -0.04px;
+    line-height: 24px;
+  }
+  

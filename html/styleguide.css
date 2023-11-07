@@ -1,0 +1,9 @@
+:root {
+    --textwhite: rgba(255, 255, 255, 1);
+    --primary-h6-18-font-family: "Gilroy-SemiBold", Helvetica;
+    --primary-h6-18-font-weight: 600;
+    --primary-h6-18-font-size: 18px;
+    --primary-h6-18-letter-spacing: -0.036000000536441805px;
+    --primary-h6-18-line-height: 24px;
+    --primary-h6-18-font-style: normal;
+  }
