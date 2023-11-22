@@ -6,11 +6,90 @@ body {
   font-family: 'Sofia-sans', sans-serif;
 }
 
-.App {
-  text-align: center;
+.navbar {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  padding: 10px;
+}
+
+.home {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
   padding: 20px;
 }
 
 h1 {
   font-size: 2em;
+  margin-left: 20px; /* Add some margin to separate the logo and content */
+}
+
+.home .texte-in-the-main {
+  height: 493px;
+  left: 0;
+  position: absolute;
+  top: 245px;
+  width: 619px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.home .description {
+  color: #f1f6fd;
+  font-family: "Poppins-semibold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 2%;
+  letter-spacing: 0;
+  line-height: 45.6px;
+  position: absolute;
+  top: 530px;
+  width: 613px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.home .texte-wrapper {
+  color: #ffff;
+  font-family: "Sofia Sans-Black", Helvetica;
+  font-size: 70px;
+  font-weight: 900;
+  left: 2%;
+  letter-spacing: -0.76px;
+  line-height: 104.1px;
+  position: absolute;
+  top: 260px;
+  width: 346px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.home .texte-wrapper-2 {
+  color: #cb99e3;
+  font-family: "Sofia Sans-Black", Helvetica;
+  font-size: 45px;
+  font-weight: 900;
+  left: 2%;
+  letter-spacing: -0.52px;
+  line-height: 60.1px;
+  position: absolute;
+  top: 410px;
+  width: 800px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.home .logo {
+  max-width: 50%;
+  transform: translate(-20%, -40%);
+  object-fit: cover;
+  pointer-events: none;
+  user-select: none;
+}
+
+.home .linkdin {
+  max-width: 50%;
+  transform: translate(-500%, 1100%);
+  object-fit: cover;
+  pointer-events: none;
+  user-select: none;
 }

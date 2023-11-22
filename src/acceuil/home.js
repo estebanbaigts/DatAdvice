@@ -1,10 +1,23 @@
-import React from 'react';
 import './home.css';
+import React from 'react';
+import './assets/logo.png';
+import './assets/1.png';
 
 function Home() {
   return (
-    <div className="App">
-      <h1>Bonjour à tous</h1>
+    <div className="home">
+      <div className="image">
+        <img className="logo" src={require("./assets/logo.png")} alt="logo" />
+        <img className="linkdin" src={require("./assets/1.png")} alt="linkdin" />
+      </div>
+      <div className="text-in-the-main">
+        <p className='description'>
+          « La donnée devient information, lorsqu&#39;elle permet aux acteurs d’agir et aux décideurs de réduire
+          leurs&nbsp;incertitude »
+        </p>
+        <div className="texte-wrapper">DatAdvice</div>
+        <div className="texte-wrapper-2">Votre expert dans la Data</div>
+      </div>
     </div>
   );
 }
