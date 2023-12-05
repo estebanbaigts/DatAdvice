@@ -1,11 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './app';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+import './style.css'
+import Mainpagemaquettetestduvieux from './views/mainpagemaquettetestduvieux'
+import NotFound from './views/not-found'
+
+const App = () => {
+  return (
+    <Router>
+      <Switch>
+        <Route component={Mainpagemaquettetestduvieux} exact path="/" />
+        <Route component={NotFound} path="**" />
+        <Redirect to="**" />
+      </Switch>
+    </Router>
+  )
+}
+
+ReactDOM.render(<App />, document.getElementById('app'))

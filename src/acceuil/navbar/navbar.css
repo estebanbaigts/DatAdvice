@@ -6,8 +6,6 @@
 }
 
 .custom-button {
-    height: 50px;
-    cursor: pointer;
     transform: translate(-20%, 120%);
     background-color: #ffffff;
     color: #000000;

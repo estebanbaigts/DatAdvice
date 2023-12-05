@@ -1,0 +1,228 @@
+.mainpagemaquettetestduvieux-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainpagemaquettetestduvieux-mainpagemaquettetestduvieux {
+  width: 100%;
+  height: 1077px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-image: linear-gradient(132deg, rgba(74, 82, 76, 1) 0%, rgba(70, 148, 82, 1) 100%);
+}
+.mainpagemaquettetestduvieux-glass-shape {
+  top: 134px;
+  left: 517px;
+  width: 946.138671875px;
+  height: 883.59619140625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mainpagemaquettetestduvieux-component1 {
+  right: -231px;
+  width: 946px;
+  bottom: -18px;
+  height: 884px;
+  position: absolute;
+}
+.mainpagemaquettetestduvieux-texteinethemainpage {
+  top: 379px;
+  left: 18px;
+  width: 613px;
+  height: 493px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mainpagemaquettetestduvieux-text {
+  color: rgba(241, 246, 253, 1);
+  right: -68px;
+  width: 613px;
+  bottom: 44px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 189.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mainpagemaquettetestduvieux-text02 {
+  top: 0px;
+  left: 68px;
+  color: rgba(255, 255, 255, 1);
+  width: 346px;
+  height: auto;
+  position: absolute;
+  font-size: 76px;
+  font-style: Black;
+  text-align: left;
+  font-family: Sofia Sans;
+  font-weight: 900;
+  line-height: 137.00000047683716%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mainpagemaquettetestduvieux-text04 {
+  top: 143px;
+  left: 68px;
+  color: rgba(203, 153, 227, 1);
+  width: 408px;
+  height: auto;
+  position: absolute;
+  font-size: 52px;
+  font-style: Black;
+  text-align: left;
+  font-family: Sofia Sans;
+  font-weight: 900;
+  line-height: 115.49999713897705%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mainpagemaquettetestduvieux-datadvice3 {
+  top: 0px;
+  left: 0px;
+  width: 235px;
+  height: 220px;
+  position: absolute;
+}
+.mainpagemaquettetestduvieux-social-icons {
+  top: 942px;
+  left: 41px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+}
+.mainpagemaquettetestduvieux-social-icons1 {
+  top: 942px;
+  left: 117px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+}
+.mainpagemaquettetestduvieux-buttons {
+  gap: 16px;
+  top: 39px;
+  left: 790px;
+  width: 204px;
+  display: flex;
+  opacity: 0.80;
+  padding: 16px 72px;
+  position: absolute;
+  align-items: center;
+  border-radius: 32px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.mainpagemaquettetestduvieux-text06 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Black;
+  text-align: center;
+  font-family: Sofia Sans;
+  font-weight: 900;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mainpagemaquettetestduvieux-buttons1 {
+  gap: 16px;
+  top: 40px;
+  left: 1272px;
+  width: 289px;
+  height: 57px;
+  display: flex;
+  opacity: 0.80;
+  padding: 16px 72px;
+  position: absolute;
+  align-items: center;
+  border-radius: 32px;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 1);
+}
+.mainpagemaquettetestduvieux-text08 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Black;
+  text-align: center;
+  font-family: Sofia Sans;
+  font-weight: 900;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mainpagemaquettetestduvieux-buttons2 {
+  gap: 16px;
+  top: 40px;
+  right: 39px;
+  width: 296px;
+  display: flex;
+  opacity: 0.80;
+  padding: 16px 72px;
+  position: absolute;
+  align-items: center;
+  border-radius: 32px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.mainpagemaquettetestduvieux-text10 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Black;
+  text-align: center;
+  font-family: Sofia Sans;
+  font-weight: 900;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mainpagemaquettetestduvieux-buttons3 {
+  gap: 16px;
+  top: 40px;
+  left: 1020px;
+  width: 228px;
+  height: 56px;
+  display: flex;
+  opacity: 0.80;
+  padding: 16px 72px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.mainpagemaquettetestduvieux-text12 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Black;
+  text-align: center;
+  font-family: Sofia Sans;
+  font-weight: 900;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.logo {
+  width: 11%;
+  height: 20%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+}

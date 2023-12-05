@@ -1,15 +1,13 @@
 import './home.css';
 import React from 'react';
-import './assets/logo.png';
+import Logo from './assets/logo.png';
 import './assets/1.png';
 
 function Home() {
   return (
     <div className="home">
-      <div className="image">
-        <img className="logo" src={require("./assets/logo.png")} alt="logo" />
+        <img className="logo" src={Logo} alt="logo" />
         <img className="linkdin" src={require("./assets/1.png")} alt="linkdin" />
-      </div>
       <div className="text-in-the-main">
         <p className='description'>
           « La donnée devient information, lorsqu&#39;elle permet aux acteurs d’agir et aux décideurs de réduire

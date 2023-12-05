@@ -1,0 +1,55 @@
+.component {
+    height: 884px;
+    width: 946px;
+}
+
+.component .overlap-group {
+    height: 884px;
+    position: relative;
+    width: 943px;
+}
+
+.component .vector {
+    background-blend-mode: overlay;
+    height: 511px;
+    left: 304px;
+    position: absolute;
+    top: 0;
+    width: 487px;
+}
+
+.component .img {
+    background-blend-mode: overlay;
+    height: 373px;
+    left: 310px;
+    position: absolute;
+    top: 511px;
+    width: 486px;
+}
+
+.component .vector-2 {
+    background-blend-mode: overlay;
+    height: 436px;
+    left: 0;
+    position: absolute;
+    top: 448px;
+    width: 403px;
+}
+
+.component .vector-3 {
+    background-blend-mode: overlay;
+    height: 471px;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    width: 403px;
+}
+
+.component .vector-4 {
+    background-blend-mode: overlay;
+    height: 518px;
+    left: 400px;
+    position: absolute;
+    top: 224px;
+    width: 543px;
+}

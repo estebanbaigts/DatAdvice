@@ -8,29 +8,31 @@ body {
 
 .navbar {
   display: flex;
-  align-items: center; /* Align items vertically in the center */
+  align-items: center;
   padding: 10px;
-}
-
-.home {
-  display: flex;
-  align-items: center; /* Align items vertically in the center */
-  padding: 20px;
 }
 
 h1 {
   font-size: 2em;
-  margin-left: 20px; /* Add some margin to separate the logo and content */
+  margin-left: 20px;
+}
+
+.home .texte-in-the-main,
+.home .description,
+.home .texte-wrapper,
+.home .texte-wrapper-2,
+.home .logo,
+.home .linkdin {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
 }
 
 .home .texte-in-the-main {
   height: 493px;
   left: 0;
-  position: absolute;
   top: 245px;
   width: 619px;
-  pointer-events: none;
-  user-select: none;
 }
 
 .home .description {
@@ -41,11 +43,8 @@ h1 {
   left: 2%;
   letter-spacing: 0;
   line-height: 45.6px;
-  position: absolute;
   top: 530px;
   width: 613px;
-  pointer-events: none;
-  user-select: none;
 }
 
 .home .texte-wrapper {
@@ -56,11 +55,8 @@ h1 {
   left: 2%;
   letter-spacing: -0.76px;
   line-height: 104.1px;
-  position: absolute;
   top: 260px;
   width: 346px;
-  pointer-events: none;
-  user-select: none;
 }
 
 .home .texte-wrapper-2 {
@@ -71,25 +67,51 @@ h1 {
   left: 2%;
   letter-spacing: -0.52px;
   line-height: 60.1px;
-  position: absolute;
   top: 410px;
   width: 800px;
-  pointer-events: none;
-  user-select: none;
 }
 
 .home .logo {
-  max-width: 50%;
-  transform: translate(-20%, -40%);
+  max-width: 10%;
+  transform: translate(10%, -30%);
   object-fit: cover;
-  pointer-events: none;
-  user-select: none;
 }
 
 .home .linkdin {
   max-width: 50%;
   transform: translate(-500%, 1100%);
   object-fit: cover;
-  pointer-events: none;
-  user-select: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .home .texte-in-the-main,
+  .home .description,
+  .home .texte-wrapper,
+  .home .texte-wrapper-2,
+  .home .logo,
+  .home .linkdin {
+    position: static;
+    max-width: 100%;
+    transform: none;
+  }
+  
+  .home .texte-in-the-main {
+    height: auto;
+  }
+
+  .home .description {
+    width: 100%;
+    left: 0;
+  }
+
+  .home .texte-wrapper,
+  .home .texte-wrapper-2 {
+    width: 100%;
+    left: 0;
+  }
+
+  .home .logo,
+  .home .linkdin {
+    max-width: 100%;
+  }
 }
