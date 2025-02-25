@@ -8,7 +8,6 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Database className="w-8 h-8 text-[#2ecc71]" />
               <span className="text-xl font-bold">DatAdvice</span>
             </div>
             <p className="text-gray-400">
